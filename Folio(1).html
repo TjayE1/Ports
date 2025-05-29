@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_PortFolio</title>
+    <link rel="stylesheet" href="/Folio(1).css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#home" style="text-decoration: none;" class="logo">Nampiina <span>Esther</span></a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+   <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, Its <span>Esther</span></h1>
+            <h3 class="text-animation">I'm a <span></span></h3>
+            <p>I'm a Software Engineering student with experience in front-end and back-end development. I enjoy solving problems with clean, efficient code and am eager to learn new technologies while working on impactful projects.</p>
+
+            <div class="social-media"> 
+                <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAA2dJREFUWEftmFmoTlEUx3/XmPEFmSKU+cWQmSSEDMnsQRIiQyREMstMhjIrJZJIhoQomWeRMmeIFHmRzNP+3/bRubt9hu9+38NN1tt3zl5r/fbaa6+1zpdHEZO8IsbDPwPUGhgGtAOqA1WAYsBb4B1wHdgDXMj0BDKJUElgNDDNOKuf0tFzYD2wGfiaRict0CBgI1AtjVHPGkVOG1HUYiUN0HRgJeQk3+YAS+OIkoAEMiNpVxm+1xFOjdKJA5qdtJsMQcLL5wJLfPpRQIOB/Y5CX5OcVYFJQLOUMI9s7j0ATjnHPtTjw5sXuk0yVCfk9L5RbhL6PQAYBbwCngLPgO/29tUDagN7gX3Ab6t3FVC5COSFXS+9v+KL0BhguxMB7a5HyqhELTsE9HdejgV2JAE9NLtr4CjeBlpkCXQZaOvYkK9GcUBNgXsexzLWPkugY6aC9/bYEJDA8sU9snnm2UJH6ZfdxeMsgWqYvFPelHDs6DYvjwI6Aug2heWM6UndsoQJ1I8CfRxbh8O55UboGtDKUVgFzMwR0AJz6+bH5acLpJDqyoZFBUyFLBeifrbGMfQeqBx1ZC+BWo6COvWEXNDYyq+cCcsnoFwU0C2guaNwEuiZI6ADwEDHlkaUulFAx4FejsI3U/4rAR+zhCpth7cKjp2LQMcoIOXKIo9jlYPFWQJpatD04EqBS+MmtYqfiF35AnQxR3elkFAtgfNAGY++WpJaU764QPqtSh00UjXExkBFe2RTTNPdBahYppHipvmOsB2/vEfhCdAwbM/XXEdap9JXo91tG6AMS1QaTttOv9aMph8cR2UNvKZMTQsqqO6tDS8fbz4StoYf+ID07EaomU60QGftV0agr9FieESYtgHq5HFy1/r4mQSk923MuKGGKrjPZhypacO6DBhi5yVF4VKER81LB2NoNCN1sD4KLIsbYScDG+zqFcCsNElj13QCzsWsVy4GtlMDaaHKvMq9ROVgC/AmBVhnQEfsk9VxHw5JXx0yqN2s81juB6h7+6SrTfzwOx2T5vFNcRtKAyR91aedznQXB6TaciLkWKVEN1ZlJFbSAslIKXNc4+yV1kTQ3ROFwJm++ZXwr21D1YxeYJiPosoEKLChPxXUgG8mbFbV+Q7wIykq4feFAcrEfsZr/wMlhewPsfWUJfen6EsAAAAASUVORK5CYII="/></a>
+                <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAflJREFUWEft18+rTVEUwPHPUwYyQ1EGJjyZKKUkykAmCj0phamkhIGU/IgwJBOlN0VKmWAiyY9CGSj5UZj4A0RJBko5S+fodqz7zr286966d9WZ7L32Xt+z1tpr7T1mwGRswHiMgJoi0s5Dy3EAS/Ea5/G2abPpmM+AVuAxZrUY+ITVeDcdRqfaIwO6gp3JokvY2w+g5wgv1eUR1vUD6GoRmh2J4Uns6QfQSjzBzBbjX8ocetMPoLAZUAfLU/aqPGUvew0T+w9dYVyARUVN+4wP+N7k5cxDG3A0WXgET8vxhYjkr8thPCvLxgmMtyj8wF1cKPLxTjuwDGgXLicLNuNWOb64MPo+0dmICexu8MQ5HMp0ugHaVCT77Qage1jfFJZyfhtu1HW7AdqCmw1AHbL8UovQrvoXoE5CVu0fvS/KRPzwWsxoQzoXoftbuvFQJyGLjSPZo4Z9LK2sKZN4dgIVrSha0l8BdeKhr5iPbzXjpxCnri7Roq71Eug6tieGw7tV/rVO78PFXgKdxbEEKO5S0R/rchxnegkUoTmZGI4b6Itk/A/9bpK69dgvaXN7PN0mV5YhuymMgKoojTxUeWKUQ1VxG+5TFkVsa1LEoudUz+k5RZfen+g8LN5u95PxeUWzjTZRlweIb8rmmqz7f0ND9+ro2rUD56GfHKqHJb+OjGwAAAAASUVORK5CYII="/></a>
+                <a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAvZJREFUWEftl0nIjlEUx39flFJ2LGSeM0cpsZFkIRkjIiWKsLAgMs9jSJFIMm3MU1I2FpQkQ5nKmIWpiBUWxP3rvHq/57vD8+Z59S6+s3nrvef53/8953/PObeOGrO6GuNDI6FURiqJUB9gANARaJICtvWfwCvgHvAozzd5CE0F1gFd8wBGfJ4BK4CTMZwYodbAUWDEPxLJfn4VmAF88OHGCF0DhhVMpgR3BRhVCaHJwIkqkSnBTgDOZfcIReiFS1fnAgj9AHYBj00/Xcow9V/vPIR0mx4UQEYQl4AxhqXfCxnctsCb8v98EZqUugkG8AnYAdx2m94FmrkU9AcGA4uB5sB9KxX6ZBZwMENoNHA5RWgesDcRobPAbOBzwK8DcAgYDtwCdOWnAE0z/nOAAylCS4AtEUKHgZm2Lk0MchHtBfwyrShiL+FPW7oODI1gaa9tKUKrncOaAMh7oBPwHehnfuMzvmccOWGoMsv3iaXTB7kc2JQipKq8MkBomQPfbBttd+KfGPA7ZTp6DRwDpifw/i77RL0BEHOf9QUeutPnEb7ISmsxTaqVbExFKEaoFfARWOU0sjYh/NJmasi6hT5TapWRaIRiKWsDvLUitz5BqJTeWF3Toerp1ZeyGKEhwE1AZV/ijdk4K4RqpEcCjop0vYP5CIm1HH2mdErw7YCtgEYTnx13N3GpVWG1joUBv1waihGSftoD34Budr2nZTbTrRKG+qFmKOmnRYCQSOtgUQ2JdUwf2lBpkElTA91k0NMKo2rOHeAd0NLNUjeAHpG8KnK7U4TmO7A9CX3oOqs3fQn4SWP7jVQMaq75RSOkyqsNU6aJb6dFRDOzSsJI6+55p8yxLsIXUxFS+DWr/A/rbo03GiEtPnclv3yYqga5pz59hSZGhfJ8NViUYTaYhbQWG/JV+CTOathp64cNsGOENPFJtBqiirR9wCLgqw80z0NRzxXViiIeigsAvcuClodQ6eOaeUoXma4kViURSoIV4dBIKBXF3yibiSV8yCv3AAAAAElFTkSuQmCC"/></a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#contact" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+            <div class="home-img">
+                <img src="/IMAG/Pizza.jpeg" alt="" style="width: 79%; height:50% ;"><!--MY IMAGE-->
+            </div>
+   </section>
+
+   <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2025</div>
+                    <div class="timeline-content">
+                        <h3>Higher National Diploma : Software Engineering</h3>
+                        <p>
+                        ISBAT University – Kampala
+                        • Coursework in Web Design, Mathematics of IT, Communication Skills, Office
+                        Automation, Principles of Management, Windows Store Apps, Mathematics
+                        for IT
+                        • Dissertation in Web Design, Object-Oriented Programming, Principles of
+                        Management, and Windows Store App</p>
+                    </div>
+                
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2023</div>
+                    <div class="timeline-content">
+                        <h3>A'Level</h3>
+                        <p>Uganda Advanced Certificate of Education(UACE)
+                            St. Lawrence– Mukono
+                            • UACE Academic Achievement reward</p>
+                    </div>
+                
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2024</div>
+                    <div class="timeline-content">
+                        <h3>University</h3>
+                        <p> Uganda Certificate of Education(UCE)
+                            Naalya Secondary School- Lugazi
+                            • UCE Academic Achievement reward</p>
+                    </div>
+                
+            </div>
+        </div>
+   </section>
+
+   <section class="services" id="services">
+    <h2 class="heading">Services</h2>
+    <div class="services-container">
+        <div class="service-box">
+            <div class="service-info">
+                <h4>UI Design</h4>
+                <p>wr t  ttuy ujtf tdtd ryujuyj fdsf grrhyjh dhytjhg g yjjhgfwv  yuyytr  uyt uyt iuytiuyf tf iuytf6r76 tr7t tytg iiuyt trf  76t 7ty 76tr 9u.ij ikjh65r kt 7yuijhk lkjhn jklkjhghhbgnh j. jk,jh uk, y  lk trf  poiu iu76t r 567u </p>
+            </div>
+        </div>
+        <div class="service-box">
+            <div class="service-info">
+                <h4>UI Design</h4>
+                <p>wr t  ttuy ujtf tdtd ryujuyj fdsf grrhyjh dhytjhg g yjjhgfwv  yuyytr  uyt uyt iuytiuyf tf iuytf6r76 tr7t tytg iiuyt trf  76t 7ty 76tr 9u.ij ikjh65r kt 7yuijhk lkjhn jklkjhghhbgnh j. jk,jh uk, y  lk trf  poiu iu76t r 567u </p>
+            </div>
+        </div>
+
+    </div>
+   </section>
+   <section>
+    <div class="container1" id="Skills">
+        <h1 class="heading1">Technical Skills</h1>
+        <div class="Bars"><i class="bx "></i>
+            <div class="bar">
+                <div class="info">
+                    <span>HTML</span>
+                </div>
+                <div class="Progess-line">
+                    <span></span>
+                </div>
+            </div>
+             <div class="bar">
+                <div class="info">
+                    <span>CSS</span>
+                </div>
+                <div class="Progess-line">
+                    <span></span>
+                </div>
+            </div>
+             <div class="bar">
+                <div class="info">
+                    <span>Communication Skills</span>
+                </div>
+                <div class="Progess-line">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+    <script scr></script>
+</body>
+</html>
